@@ -1,0 +1,49 @@
+# ==============================================================================
+# .gitignore para Projetos de Data Science em R / RStudio
+# ==============================================================================
+
+# 1. Históricos e Estados da Sessão do R
+.Rhistory
+.RData
+.RDataTmp
+.RData.*
+
+# 2. Configurações de Usuário e Cache do RStudio
+.Rproj.user/
+*.Rproj.user
+
+# 3. Pacotes compilados e arquivos de compilação
+*.so
+*.o
+*.dll
+*.dylib
+
+# 4. Dados Brutos e Processados (Datasets Grandes / Sensíveis)
+data/raw/*
+data/processed/*
+
+# Exceções na pasta data: permite versionar arquivos de estrutura (.gitkeep/README)
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/**/README.md
+
+# 5. Modelos Treinados e Artefatos Pesados
+*.rds
+*.RData
+*.RData.*
+*.sav
+*.pkl
+
+# 6. Relatórios Gerados Automáticos (se aplicável)
+*.html
+*.pdf
+*.docx
+outputs/figures/*
+
+# 7. Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 8. Ambientes e Dependências Locais (renv / packrat)
+renv/library/
