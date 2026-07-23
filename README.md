@@ -123,7 +123,7 @@ install.packages(c("dplyr", "ggplot2", "readr", "pROC", "caret", "scales", "tidy
 
 ### Passo a Passo:
 1. Clone este repositório:
-   git clone https://github.com/seu-usuario/credit-risk-analysis-r.git
+   git clone https://github.com/ClaudioMell0/credit_risk_r.git
 2. Abra o arquivo de projeto `credit_risk_r.Rproj` no RStudio.
 3. Execute o pipeline completo rodando o script mestre `main.R`:
    source("main.R")
