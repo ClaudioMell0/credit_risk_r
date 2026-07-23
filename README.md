@@ -96,10 +96,8 @@ Para atender às exigências de interpretabilidade e conformidade regulatória c
 * **Métrica Principal (AUC-ROC):** **`0.784`**
 * **Classificação de Mercado:** Alta capacidade de discriminação e ordenação de risco (*Sweet Spot* para modelos operacionais de crédito).
 
-=====================================================
 MÉTRICA CHAVE DE RISCO
 AUC-ROC no Conjunto de Teste: 0.784 (78.4%)
-=====================================================
 
 > **Significado Prático:** Ao selecionar aleatoriamente um contrato inadimplente e um adimplente da base de teste, o modelo atribui uma pontuação de risco maior ao inadimplente em **78,4%** das vezes.
 
